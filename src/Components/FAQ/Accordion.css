@@ -1,0 +1,79 @@
+.Collapsible {
+  background-color: #243d8a;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 5px;
+}
+
+.Collapsible__contentInner {
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-top: 0;
+}
+.Collapsible__contentInner p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Collapsible__contentInner p:last-child {
+  margin-bottom: 0;
+  color: var(--text-color-white, #fcfcfc);
+  font-size: 14px;
+  font-family: "Poppins";
+  line-height: 178%;
+}
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  padding: 10px;
+  color: black;
+  border-radius: 5.773px;
+  border: 0.577px solid #f0f2f5;
+  background: #f5f5f5;
+  box-shadow: 0px 0px 0.5772797465324402px 0.5772797465324402px
+    rgba(0, 0, 0, 0.15);
+  color: var(--text-color-black, #333);
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 178%;
+}
+.Collapsible__trigger:after {
+  font-family: "FontAwesome";
+  content: "‸";
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath fill='%23ffffff' d='M8 12.586L2.707 7.293a1 1 0 0 1 1.414-1.414L8 10.172l4.879-4.879a1 1 0 0 1 1.414 1.414L8 12.586z'/%3E%3C/svg%3E"); */
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  transition: transform 300ms;
+}
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
+}
+.Collapsible__trigger.is-disabled {
+  opacity: 0.5;
+  background-color: grey;
+}
+
+.CustomTriggerCSS {
+  background-color: lightcoral;
+  transition: background-color 200ms ease;
+}
+
+.CustomTriggerCSS--open {
+  background-color: darkslateblue;
+}
+
+.Collapsible__custom-sibling {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #cbb700;
+  color: black;
+}

@@ -1,0 +1,135 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  width: 100%;
+}
+
+.faq-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-heading h2 {
+  width: 404px;
+  height: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 178%;
+  color: #333333;
+}
+
+.faq-heading p {
+  width: 717px;
+  height: 72px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 178%;
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+}
+
+.faq-faq_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 28px;
+  left: 65px;
+  position: relative;
+}
+
+.faq-faq_item_detail {
+  width: 710px;
+  height: 472px;
+  background-color: #243d8a;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 33px;
+}
+
+.faq-faq_btn {
+  background: #ffffff;
+  width: 640px;
+  height: 72px;
+  border: 1px solid #f0f2f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.faq-faq_btn button {
+  background: none;
+  width: 640px;
+  height: 72px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.faq-faq_btn_info {
+  display: flex;
+  width: 540px;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin-left: 10px;
+}
+
+.faq-faq {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.faq-faq_item_detail h1 {
+  width: 400px;
+  height: 44px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 184%;
+  color: #fcfcfc;
+  margin-top: 63.01px;
+  margin-left: 100px;
+}
+
+.faq-faq_item_detail p {
+  width: 587px;
+  height: 108px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 178%;
+  margin-top: 24px;
+  margin-left: 100px;
+  color: #fcfcfc;
+}
+
+.accordion {
+  display: none;
+}
+@media (min-width: 256px) and (max-width: 1000px) {
+  .faq-main {
+    display: none;
+  }
+
+  .accordion {
+    display: block;
+  }
+}

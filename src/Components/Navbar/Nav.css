@@ -1,0 +1,152 @@
+.nav-wrapper {
+  background: #ffffff;
+  height: 104px;
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* position: sticky; */
+  z-index: 10000;
+  box-shadow: 3px 6px 25px -3px rgba(0, 0, 0, 0.75);
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+.links {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  color: #333333;
+}
+
+.active-link {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  color: #0961bf;
+}
+
+/* .nav-button {
+  background-color: #0961bf;
+  width: 192px;
+  height: 46.08px;
+  border-radius: 20px;
+} */
+
+/* .nav-button:hover {
+  background-color: #0d7ed0;
+} */
+
+.nav-btn {
+  background-color: #0961bf;
+  width: 192px;
+  height: 46.08px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.36px;
+  line-height: 22px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.1s;
+}
+
+.nav-btn:hover {
+  background-color: #0d7ed0;
+  width: 195px;
+  height: 48px;
+}
+
+Link {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  color: #333333;
+}
+
+.hamburger {
+  display: none;
+  border: none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+/* 
+.hamburger-wrapper {
+  display: none;
+} */
+
+@media only screen and (min-width: 256px) and (max-width: 1000px) {
+  .nav-right {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    border: none;
+    background-color: transparent;
+    padding-right: 21px;
+    margin-top: 19px;
+  }
+  .hamburger-menu {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    z-index: 10000000;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 0px, 0px, 20px, 20px;
+    height: 221px;
+    background-color: #f9f9f9;
+  }
+
+  .hamburger-menu > a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    color: #333333;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .nav-left a img {
+    width: 127px;
+  }
+}

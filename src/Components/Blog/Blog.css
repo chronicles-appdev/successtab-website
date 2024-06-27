@@ -1,0 +1,132 @@
+.blog-main {
+  margin-top: 160px;
+}
+
+.blog-main h2 {
+  color: var(--text-color-black, #333);
+  text-align: center;
+  font-size: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 184%;
+}
+
+.blog-main p {
+  color: var(--text-color-black, #333);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167%;
+}
+
+.blog-wrapper {
+  background: #dce8fa;
+  margin-top: 24px;
+}
+
+.blog-left {
+  margin-left: 39px;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 89px;
+}
+
+.blog-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.blog-right a {
+  color: var(--color-deep-blue, #192a5f);
+  font-size: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  text-decoration-line: underline;
+}
+
+.blog-right p {
+  color: var(--text-color-black, #333);
+  font-size: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 167%;
+  text-align: left;
+}
+
+.blog-right span {
+  color: var(--color-button, #007bff);
+  font-size: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 167%;
+}
+
+.blog-right button {
+  width: 192px;
+  height: 46.08px;
+  border-radius: 20px;
+  background: #0961bf;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15.36px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.504px;
+  margin-top: 30px;
+}
+
+.blog-right button:hover {
+  background-color: #0d7ed0;
+  width: 195px;
+  height: 48px;
+}
+
+.markerr {
+  width: 65px;
+  height: 7px;
+  background: #007bff;
+  border-radius: 0px 8px;
+  position: absolute;
+  margin-left: 50%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media (min-width: 256px) and (max-width: 1000px) {
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-left img {
+    width: 100%;
+  }
+
+  .blog-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .blog-right a {
+    text-align: center;
+  }
+
+  .blog-right p {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

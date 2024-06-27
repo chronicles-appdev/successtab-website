@@ -1,0 +1,131 @@
+.pay_pay_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.pay_pay_form input[type="text"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+  width: 540px;
+  height: 53px;
+  background: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 7px;
+}
+.pay_pay_form input[type="email"] {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 540px;
+  height: 53px;
+  background: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 7px;
+}
+.pay_pay_form input[type="number"] {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 540px;
+  height: 53px;
+  background: #ffffff;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding-left: 7px;
+}
+
+.pay_pay_form button {
+  width: 258px;
+  height: 55px;
+  background: #0961bf;
+  border-radius: 20px;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.pay_h1 {
+  height: 53px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 180%;
+  color: #0961bf;
+  margin-left: 205px;
+  margin-top: 30px;
+}
+
+.pay_p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 173.5%;
+  color: #333333;
+  margin-left: 205px;
+  margin-bottom: 25px;
+  margin-top: -20px;
+}
+
+.pay_close_btn {
+  float: right;
+  background: none;
+  border: none;
+  margin-right: 20px;
+  margin-top: 9px;
+}
+
+.pay_PayStackButton {
+  width: 258px;
+  height: 55px;
+  background: #0961bf;
+  border-radius: 20px;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.pay_PayStackButton:hover {
+  background-color: #0d7ed0;
+  width: 260px;
+}
+
+@media (min-width: 256px) and (max-width: 1000px) {
+  .pay_pay_form input[type="text"] {
+    width: 100%;
+  }
+
+  .pay_pay_form input[type="email"] {
+    width: 100%;
+  }
+
+  .pay_pay_form input[type="number"] {
+    width: 100%;
+  }
+
+  .pay_h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pay_p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

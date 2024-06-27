@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+  font-family: "Poppins";
+}
+
+body {
+  user-select: none;
+  overflow-x: hidden;
+}
+
+.marker {
+  width: 65px;
+  height: 7px;
+  background: #007bff;
+  border-radius: 0px 8px;
+  position: absolute;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+html {
+  scroll-behavior: smooth;
+}
