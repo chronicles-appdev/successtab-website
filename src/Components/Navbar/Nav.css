@@ -7,7 +7,7 @@
   left: 0;
   width: 100%;
   /* position: sticky; */
-  z-index: 10000;
+  z-index: 99999;
   box-shadow: 3px 6px 25px -3px rgba(0, 0, 0, 0.75);
 }
 
@@ -121,12 +121,13 @@ Link {
     background-color: transparent;
     padding-right: 21px;
     margin-top: 19px;
+    z-index: 999999;
   }
   .hamburger-menu {
     position: absolute;
     width: 100%;
     top: 10%;
-    z-index: 10000000;
+    z-index: 100000;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
