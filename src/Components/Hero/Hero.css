@@ -1,5 +1,7 @@
 .hero-wrapper {
   width: 100%;
+  position: relative;
+  top:100px;
 }
 
 .hero-shape {
