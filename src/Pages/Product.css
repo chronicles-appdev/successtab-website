@@ -188,6 +188,11 @@
 } */
 
 @media (min-width: 256px) and (max-width: 1000px) {
+
+  .product-wrapper {
+    top: 105px;
+  }
+
   .product-shape {
     height: 235px;
     position: relative;
@@ -216,14 +221,16 @@
   }
 
   .product-button {
-    position: initial;
+    position: relative;
+    top: -30px;
+    left: -15px;
   }
 
   .product-image {
     position: relative;
     display: flex;
     justify-content: center;
-    top: -49px;
+    top: -55px;
     z-index: 1000000;
   }
 
@@ -241,11 +248,13 @@
     font-size: 25px;
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
   }
 
   .product-cards {
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
   }
 
   .product-card:nth-child(2) {
